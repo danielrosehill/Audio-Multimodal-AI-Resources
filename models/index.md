@@ -2,6 +2,22 @@
 
 Open-source models that process audio tokens natively alongside text prompts, enabling unified inference for transcription, analysis, and understanding.
 
+## Any-to-Any Models (Omni-Modal)
+
+[![Any-to-Any](https://img.shields.io/badge/%F0%9F%A4%97%20Task-any--to--any-purple)](https://huggingface.co/models?pipeline_tag=any-to-any)
+
+Models classified under Hugging Face's "any-to-any" task naturally include audio as part of their broader multimodal capabilities. These accept multiple input modalities (text, image, audio, video) and can generate multiple output types including speech.
+
+| Model | Developer | Parameters | License | Notes |
+|-------|-----------|------------|---------|-------|
+| [Qwen Omni](qwen-omni.md) | Alibaba | 7B-35B | Apache 2.0 | True omni-modal (text+image+audio+video in, text+speech out), Gemini 2.5 Pro parity |
+
+## Audio-Text-to-Text Models
+
+[![Audio-Text-to-Text](https://img.shields.io/badge/%F0%9F%A4%97%20Task-audio--text--to--text-blue)](https://huggingface.co/models?pipeline_tag=audio-text-to-text)
+
+Models focused specifically on audio understanding with text output—the core "audio multimodal" category.
+
 | Model | Developer | Parameters | License | Notes |
 |-------|-----------|------------|---------|-------|
 | [Kimi-Audio](kimi-audio.md) | Moonshot AI | 10B | MIT/Apache 2.0 | Hybrid architecture with audio generation, 13M+ hours training data |

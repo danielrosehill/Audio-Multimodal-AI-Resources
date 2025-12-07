@@ -2,6 +2,7 @@
 
 [![Hugging Face Task Page](https://img.shields.io/badge/%F0%9F%A4%97%20Task-audio--text--to--text-blue)](https://huggingface.co/tasks/audio-text-to-text)
 [![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Models-audio--text--to--text-yellow)](https://huggingface.co/models?pipeline_tag=audio-text-to-text&sort=trending)
+[![Any-to-Any Models](https://img.shields.io/badge/%F0%9F%A4%97%20Task-any--to--any-purple)](https://huggingface.co/models?pipeline_tag=any-to-any&sort=trending)
 
 Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts (Hugging Face task identifier: audio-text-to-text).
 
