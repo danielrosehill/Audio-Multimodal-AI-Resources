@@ -1,13 +1,15 @@
-# Multimodal AI - Audio And Text To Text Modality (Resources, Notes)
+# Multimodal AI - Audio-Text-To-Text Modality (Resources, Notes)
 
 [![Hugging Face Task Page](https://img.shields.io/badge/%F0%9F%A4%97%20Task-audio--text--to--text-blue)](https://huggingface.co/tasks/audio-text-to-text)
 [![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Models-audio--text--to--text-yellow)](https://huggingface.co/models?pipeline_tag=audio-text-to-text&sort=trending)
 
-Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts.
+Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts (Hugging Face task identifier: audio-text-to-text).
 
 ## Overview
 
-This repository catalogs and analyzes a relatively small but significant subclassification of multimodal models: those with native audio support. As of December 7, 2025, these models are classified on Hugging Face under the "multimodal" category rather than the "audio" category—an interesting distinction that reflects their fundamentally different architecture from traditional ASR models.
+This repository catalogs and analyzes a relatively small but significant subclassification of multimodal models: those with native audio support. 
+
+As of December 7, 2025, these models are classified on Hugging Face under the "multimodal" category rather than the "audio" category—an interesting distinction that reflects their fundamentally different architecture from traditional ASR models.
 
 While the primary focus is **open-source models**, closed-source providers are included for completeness given the relatively small size of this emerging field.
 
