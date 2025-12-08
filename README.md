@@ -21,6 +21,25 @@ The focus of this resource list maps to these two tasks in Hugging Face's (curre
 
 ---
 
+# Hugging Face Resources
+
+## Audio Text To Text
+
+| Resource | Link |
+|----------|------|
+| Task Overview | [audio-text-to-text](https://huggingface.co/tasks/audio-text-to-text) |
+| Models (Trending) | [Browse models](https://huggingface.co/models?pipeline_tag=audio-text-to-text&sort=trending) |
+| Datasets | [Browse datasets](https://huggingface.co/datasets?task_categories=task_categories:audio-text-to-text) |
+
+## Omni / All-Modality Multimodal
+
+| Resource | Link |
+|----------|------|
+| Task Overview | [any-to-any](https://huggingface.co/tasks/any-to-any) |
+| Models (Trending) | [Browse models](https://huggingface.co/models?pipeline_tag=any-to-any&sort=trending) |
+| Datasets | [Browse datasets](https://huggingface.co/datasets?task_categories=task_categories:any-to-any) |
+
+
 ## Repository Index
 
 ### Core Documentation
@@ -142,11 +161,17 @@ See **[providers.md](providers.md)** for the full list:
 
 ## Benchmarks
 
-See **[benchmarks.md](benchmarks.md)** for evaluation frameworks:
+See **[benchmarks.md](benchmarks.md)** for full coverage of evaluation frameworks and leaderboards.
 
-- **MSEB** (Google Research, NeurIPS 2025) - Massive Sound Embedding Benchmark
-- **AudioBench** - Comprehensive audio LLM evaluation
-- **SUPERB** - Speech processing tasks
+| Benchmark | Developer | Focus | Links |
+|-----------|-----------|-------|-------|
+| **MSEB** | Google Research | Sound embedding evaluation | [GitHub](https://github.com/google-research/mseb) · [Blog](https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/) |
+| **UltraEval-Audio** | OpenBMB | Speech understanding & generation | [GitHub](https://github.com/OpenBMB/UltraEval-Audio) |
+| **lmms-eval** | EvolvingLMMs Lab | 100+ multimodal tasks | [GitHub](https://github.com/EvolvingLMMs-Lab/lmms-eval) |
+| **VERSA** | WavLab Speech | 90+ speech/audio metrics | [GitHub](https://github.com/wavlab-speech/versa) |
+| **AudioBench** | AudioLLMs | Comprehensive audio LLM | [GitHub](https://github.com/AudioLLMs/AudioBench) · [Leaderboard](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard) |
+
+**Leaderboards:** [AudioBench](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard) · [Open ASR](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
 ---
 
